@@ -7,7 +7,7 @@ class CandidateProfile:
     def get_email(self):
         return self._email
 
-    def get_score(self):
+    def get_score(self): 
         return self.__score
 
 # Read inputs

@@ -17,6 +17,6 @@ class StudentProfile:
             f"Skills: {skill_text}\n"
             f"Placement Status: {placement_status}"
         )
-# pyrefly: ignore [parse-error]
+
 student = StudentProfile(student_id = 55,name = "Uday",course = "BE",score = 80.88,skill = ["python"],is_placed = True)
 print(student)
